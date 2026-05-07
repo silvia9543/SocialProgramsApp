@@ -1,0 +1,71 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  position: relative;
+  background-image:
+    url("/header-city.avif"); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 6rem 1.5rem;  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+
+.app-body {
+  display: flex;
+  flex: 1;
+  padding: 1.5rem;
+  gap: 2rem;
+}
+
+.app-sidebar {
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  flex-shrink: 0;
+}
+
+.app-sidebar h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 1000;
+  margin-bottom: 0.5rem;
+}
+
+.app-sidebar p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.app-title {
+  display: inline-block; 
+  background-color: rgba(38, 140, 208, 0.991); 
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
