@@ -20,5 +20,5 @@ Database: Postgres
 -------------------------------------------------------------------------------------------------------------------------------
 **DEMO**
 
-For a video demo of the file, check "socialProgramsApp.mov"
+For a video demo of the file, check "SocialProgramsApp.mov"
 
