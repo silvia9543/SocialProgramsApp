@@ -1,12 +1,10 @@
 package com.services
 
-import com.services.GoogleMapsService
 import com.google.maps.model.GeocodingResult
 import com.models.Address
 import com.models.Coordinates
 import com.repository.AddressRepository
 import jakarta.persistence.EntityNotFoundException
-import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import java.sql.DriverManager.println
 
