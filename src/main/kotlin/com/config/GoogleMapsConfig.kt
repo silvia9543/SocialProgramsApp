@@ -1,0 +1,23 @@
+package com.config
+import com.services.GoogleMapsService
+import com.google.maps.GeoApiContext
+import org.springframework.beans.factory.annotation.Value
+import org.springframework.context.annotation.Bean
+import org.springframework.context.annotation.Configuration
+import org.springframework.stereotype.Component
+
+@Configuration
+class GoogleMapsConfig {
+    @Value("\${google.maps.api.key}")
+    private val apiKey: String? = null
+    @Bean
+    fun geoApiContext(): GeoApiContext {
+        return GeoApiContext.Builder()
+                .apiKey(apiKey)
+                .build()
+    }
+    @Bean
+    fun googleMapsService(): GoogleMapsService {
+        return GoogleMapsService(geoApiContext())
+    }
+}
