@@ -1,4 +1,4 @@
-Social Programs Locator Web App
+Social Programs Locator Full-Stack Web App
 ------------------------------------------------------------------------------------------------------------------------------
 **ABOUT**
 
@@ -20,5 +20,5 @@ Database: Postgres
 -------------------------------------------------------------------------------------------------------------------------------
 **DEMO**
 
-For a video demo of the file, check "SocialProgramsApp.mov"
+For a video demo of the web app, download "SocialProgramsApp.mov"
 
